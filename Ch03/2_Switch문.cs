@@ -13,23 +13,24 @@ namespace Ch03
 {
     internal class _2_Switch문
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Console.Write("숫자 입력 : ");
             string strnum = Console.ReadLine();
-            
+
 
             int num = int.Parse(strnum);
 
-            switch(num >= 75)
+            switch(num % 2 )
             {
-                case true:
-                    Console.WriteLine($"{num}는 성공 입니다.");
+                case 0:
+                    Console.WriteLine($"{num}은 짝수 입니다.");
                     break;
-                case false:
-                    Console.WriteLine($"{num}는 실패 입니다.");
+                case 1:
+                    Console.WriteLine($"{num}은 홀수 입니다.");
                     break;
             }
+
 
 
 
