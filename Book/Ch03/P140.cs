@@ -8,7 +8,7 @@ namespace Book.Ch03
 {
     internal class P140
     {
-        static void Main(string[] args)
+        static void Main3(string[] args)
         {
             // 변수를 선언합니다.
             Console.Write("이번 달은 몇 월인가요: ");

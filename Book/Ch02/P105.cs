@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Book.Ch02
 {
-    internal class P100
+    internal class P105
     {
-        static void Main12(string[] args)
+        static void Main1(string[] args)
         {
-            var number = 100; 
+            string input = Console.ReadLine();
+            Console.WriteLine("inpu t: "+input);
         }
     }
 }
