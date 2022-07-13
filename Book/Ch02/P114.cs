@@ -8,7 +8,7 @@ namespace Book.Ch02
 {
     internal class P114
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             // 문자열로 변환 시 소수점 제거
 
@@ -17,6 +17,9 @@ namespace Book.Ch02
             Console.WriteLine(number.ToString("0.00"));
             Console.WriteLine(number.ToString("0.000"));
             Console.WriteLine(number.ToString("0.0000"));
+
+
+            // 문자열과  기본 자료형은 연산이 되지않음
 
             Console.WriteLine(52 + 273);
             Console.WriteLine("52"+ 273);

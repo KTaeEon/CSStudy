@@ -8,7 +8,7 @@ namespace Book.Ch03
 {
     internal class P140
     {
-        static void Main3(string[] args)
+        static void Main1(string[] args)
         {
             // 변수를 선언합니다.
             Console.Write("이번 달은 몇 월인가요: ");
@@ -38,7 +38,7 @@ namespace Book.Ch03
                     Console.WriteLine("가을입니다.");
                     break;
                 default:
-                    Console.WriteLine("대체 어떤 행성에 살고 계신가요?");
+                    Console.WriteLine("대체 어떤 행성에 살고 계신가요?"); // 정해진 값이 안 나올때 디폴트값으로 출력
                     break;
 
             }
