@@ -18,7 +18,7 @@ namespace Ch04
 {
     internal class _1_메서드
     {
-        static void Main(string[] args)
+        static void Ma1in(string[] args)
         {
             // 메서드 호출
             int y1 = f(1);
@@ -38,7 +38,7 @@ namespace Ch04
             Console.WriteLine("t2 : "+t2);
             Console.WriteLine("t3 : "+t3);
 
-
+            // 개인 활용
 
             Console.Write("시도 횟수을 입력해주세요 :");
             string st = Console.ReadLine();
@@ -79,7 +79,8 @@ namespace Ch04
 
 
         }
-        
+        // 개인활용모듈
+
         public static int Cal(int st, int ps)
         {
             Random rand = new Random();

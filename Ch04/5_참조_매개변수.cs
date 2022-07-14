@@ -15,6 +15,9 @@ namespace Ch04
     {
         static void Ma1in(string[] args)
         {
+
+
+
             int num1 = 10;
             int num2 = 3;
             int num3 = 0;
@@ -23,6 +26,8 @@ namespace Ch04
             MyDivider(num1, num2, ref num3, ref num4);
 
             Console.WriteLine("몫 : {0}, 나머지 : {1}",num3, num4);
+
+
 
         }// end of Main
 
