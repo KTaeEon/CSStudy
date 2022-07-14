@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace Book.Ch04
 {
-    internal class P179
+    internal class P184
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
-            string input = " test"
+
+            // Trim을 이용하여 공백을 제거합니다.
+
+            string input = " test        \n";
+            Console.WriteLine("::" + input.Trim() + "::");
+            Console.Read();
         }
     }
 }
