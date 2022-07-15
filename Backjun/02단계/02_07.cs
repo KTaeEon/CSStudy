@@ -8,7 +8,7 @@ namespace Backjun._02단계
 {
     internal class _02_07
     {
-        static void Main(string[] args)
+        static void Ma1in(string[] args)
         {
             string[] str = Console.ReadLine().Split();
             int a = int.Parse(str[0]);
