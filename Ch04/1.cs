@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ch04
 {
-    internal class _6_메서드_테스트
+    internal class _1
     {
     }
 }
