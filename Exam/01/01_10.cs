@@ -4,6 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+ * 날짜 : 2022/07/14
+ * 이름 : 김태언
+ * 내용 : 피보나치 수열 연습문제
+ */
 namespace Exam._01_10
 {
     internal class _01_10
