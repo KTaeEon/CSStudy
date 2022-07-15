@@ -28,6 +28,8 @@ namespace Book.Ch04
                     case ConsoleKey.RightArrow:
                         Console.WriteLine("오른쪽으로 이동");
                         break;
+                    case ConsoleKey.X:
+                        break;
                 }
             }
         }
