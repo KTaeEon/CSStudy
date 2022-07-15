@@ -16,7 +16,6 @@
     <Folder Include="05단계\" />
     <Folder Include="04단게\" />
     <Folder Include="03단계\" />
-    <Folder Include="02단계\" />
   </ItemGroup>
 
 </Project>

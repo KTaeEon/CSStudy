@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 /*
  * 날짜 : 2022/07/14
  * 이름 : 김태언
- * 내용 : 백준 1단계 5번 문제 A+B
+ * 내용 : 백준 1단계 12번 문제 나머지
  */
 namespace Backjun._01단계
 {
