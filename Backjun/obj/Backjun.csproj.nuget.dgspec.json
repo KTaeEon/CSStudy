@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\502\\Desktop\\CSStudy\\Backjun\\Backjun.csproj": {}
+    "C:\\Users\\rlaxo\\Desktop\\CSStudy\\git_home\\Backjun\\Backjun.csproj": {}
   },
   "projects": {
-    "C:\\Users\\502\\Desktop\\CSStudy\\Backjun\\Backjun.csproj": {
+    "C:\\Users\\rlaxo\\Desktop\\CSStudy\\git_home\\Backjun\\Backjun.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\502\\Desktop\\CSStudy\\Backjun\\Backjun.csproj",
+        "projectUniqueName": "C:\\Users\\rlaxo\\Desktop\\CSStudy\\git_home\\Backjun\\Backjun.csproj",
         "projectName": "Backjun",
-        "projectPath": "C:\\Users\\502\\Desktop\\CSStudy\\Backjun\\Backjun.csproj",
-        "packagesPath": "C:\\Users\\502\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\502\\Desktop\\CSStudy\\Backjun\\obj\\",
+        "projectPath": "C:\\Users\\rlaxo\\Desktop\\CSStudy\\git_home\\Backjun\\Backjun.csproj",
+        "packagesPath": "C:\\Users\\rlaxo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rlaxo\\Desktop\\CSStudy\\git_home\\Backjun\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\502\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rlaxo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
