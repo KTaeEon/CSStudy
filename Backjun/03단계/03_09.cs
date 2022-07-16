@@ -8,7 +8,7 @@ namespace Backjun._03단계
 {
     internal class _03_09
     {
-        static void Main(string[] args)
+        static void M1ain(string[] args)
         {
             int a = int.Parse(Console.ReadLine());
 

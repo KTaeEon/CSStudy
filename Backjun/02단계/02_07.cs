@@ -21,17 +21,17 @@ namespace Backjun._02단계
             {
                 res = 10000 + (a*1000);
             }
-            else if ( a != b && c != b )
+            else if ( a != b && c != b && a != c)
             {
                 res = St(a, b, c) * 100;
             }
             else if (a == b)
             {
-                res = 1000 + (a*100);
+                res = 1000 + (a * 100);
             }
             else if (c == b)
             {
-                res = 1000 + (a * 100);
+                res = 1000 + (c * 100);
             }
             else if (a == c)
             {
@@ -39,6 +39,8 @@ namespace Backjun._02단계
             }
             Console.WriteLine(res);
         }
+
+
         public static int St(int i,int j,int k)
         {
             int n = i;
