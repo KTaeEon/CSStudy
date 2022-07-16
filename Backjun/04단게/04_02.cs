@@ -8,7 +8,7 @@ namespace Backjun._04단게
 {
     internal class _04_02
     {
-        static void Main(string[] args)
+        static void Ma1in(string[] args)
         {
             int[] arr = new int[9];
             int count = 0;
