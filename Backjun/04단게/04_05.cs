@@ -8,7 +8,7 @@ namespace Backjun._04단게
 {
     internal class _04_05
     {
-        static void Main(string[] args)
+        static void Ma1in(string[] args)
         {
             int N = int.Parse(Console.ReadLine());
             string[] arr = Console.ReadLine().Split();
