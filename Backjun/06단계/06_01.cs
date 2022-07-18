@@ -12,7 +12,7 @@ namespace Backjun._06단계
         {
             string str = Console.ReadLine();
             char[] ch = str.ToCharArray();
-            Console.WriteLine(ch[0] + 0);
+            Console.WriteLine((int)ch[0]);
         }
     }
 }
