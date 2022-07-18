@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\502\\Desktop\\CSStudy\\Book\\Book.csproj": {}
+    "C:\\Users\\502\\Desktop\\CSStudy\\git_School\\Book\\Book.csproj": {}
   },
   "projects": {
-    "C:\\Users\\502\\Desktop\\CSStudy\\Book\\Book.csproj": {
+    "C:\\Users\\502\\Desktop\\CSStudy\\git_School\\Book\\Book.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\502\\Desktop\\CSStudy\\Book\\Book.csproj",
+        "projectUniqueName": "C:\\Users\\502\\Desktop\\CSStudy\\git_School\\Book\\Book.csproj",
         "projectName": "Book",
-        "projectPath": "C:\\Users\\502\\Desktop\\CSStudy\\Book\\Book.csproj",
+        "projectPath": "C:\\Users\\502\\Desktop\\CSStudy\\git_School\\Book\\Book.csproj",
         "packagesPath": "C:\\Users\\502\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\502\\Desktop\\CSStudy\\Book\\obj\\",
+        "outputPath": "C:\\Users\\502\\Desktop\\CSStudy\\git_School\\Book\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\502\\AppData\\Roaming\\NuGet\\NuGet.Config",
