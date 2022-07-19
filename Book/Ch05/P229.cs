@@ -14,7 +14,7 @@ namespace Book.Ch05
             public static double PI = 3.141592;
         }
 
-        static void Main(string[] args)
+        static void Ma1in(string[] args)
         {
             // 클래스 변수 사용
             Console.WriteLine(MyMath.PI);

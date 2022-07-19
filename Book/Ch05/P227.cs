@@ -14,7 +14,7 @@ namespace Book.Ch05
             public int price;
         }
 
-        static void Main(string[] args)
+        static void M1ain(string[] args)
         {
             // Product 구조체를 가진 객체를 생성 및 초기화
             Product productA = new Product() { name = "감자", price = 2000 };  

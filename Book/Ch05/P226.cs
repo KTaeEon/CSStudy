@@ -14,7 +14,7 @@ namespace Book.Ch05
             public int price;
         }
 
-        static void Main(string[] args)
+        static void Ma1in(string[] args)
         {
             // 인스턴스 변수를 생성합니다.
             Product product = new Product();

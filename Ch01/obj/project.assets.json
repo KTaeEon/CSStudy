@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\502\\Desktop\\CSStudy\\Ch01\\Ch01.csproj",
+      "projectUniqueName": "C:\\Users\\502\\Desktop\\CSStudy\\git_School\\Ch01\\Ch01.csproj",
       "projectName": "Ch01",
-      "projectPath": "C:\\Users\\502\\Desktop\\CSStudy\\Ch01\\Ch01.csproj",
+      "projectPath": "C:\\Users\\502\\Desktop\\CSStudy\\git_School\\Ch01\\Ch01.csproj",
       "packagesPath": "C:\\Users\\502\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\502\\Desktop\\CSStudy\\Ch01\\obj\\",
+      "outputPath": "C:\\Users\\502\\Desktop\\CSStudy\\git_School\\Ch01\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\502\\AppData\\Roaming\\NuGet\\NuGet.Config",
