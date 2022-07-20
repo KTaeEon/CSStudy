@@ -30,7 +30,7 @@ namespace Backjun._05단계
             return num;
         }
 
-        static void Main(string[] args)
+        static void Ma1in(string[] args)
         {
             StringBuilder sb = new StringBuilder();
             int a = 0;
