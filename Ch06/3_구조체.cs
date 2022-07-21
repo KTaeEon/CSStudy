@@ -34,7 +34,7 @@ namespace Ch06
 
     internal class _3_구조체
     {
-        static void Main(string[] args)
+        static void Mai1n(string[] args)
         {
             Point p1;
             p1.x = 1;
