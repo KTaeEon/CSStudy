@@ -13,7 +13,7 @@ namespace Book.Ch06
             public int value = 10;
         }
 
-        static void Main(string[] args)
+        static void M1ain(string[] args)
         {
             Test testA = new Test();
             Test testB = testA;
