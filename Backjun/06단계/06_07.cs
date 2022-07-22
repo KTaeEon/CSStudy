@@ -24,7 +24,7 @@ namespace Backjun._06단계
             return res;
 
         }
-        static void Main(string[] args)
+        static void Ma1in(string[] args)
         {
             string[] str = Console.ReadLine().Split();
             int[] arr = new int[2];
