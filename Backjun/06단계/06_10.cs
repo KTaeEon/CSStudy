@@ -8,7 +8,7 @@ namespace Backjun._06단계
 {
     internal class _06_10
     {
-        static void Main(string[] args)
+        static void Ma1in(string[] args)
         {
             int a = 0;
 
@@ -20,18 +20,26 @@ namespace Backjun._06단계
                 char[] cha = st.ToCharArray();
                 for (int j = 0; j < st.Length; j++)
                 {
-                    if (list.Contains(cha[j]))
+                    if (j == st.Length - 1)
                     {
-                        a -= 1;
-                        break;
-                    }
-                    else if (j == cha.Length - 1)
-                    {
-                        break;
+                        if (list.Contains(cha[j]))
+                        {
+                            a -= 1;
+                            break;
+                        }
+                        else
+                        {
+                            break;
+                        }
                     }
                     else if (cha[j] == cha[j + 1])
                     {
                         continue;
+                    }
+                    else if (list.Contains(cha[j]))
+                    {
+                        a -= 1;
+                        break;
                     }
                     else
                     {
