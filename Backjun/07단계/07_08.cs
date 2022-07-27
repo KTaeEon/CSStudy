@@ -8,27 +8,54 @@ namespace Backjun._07단계
 {
     internal class _07_09
     {
-        static void Main(string[] args)
+        static void Ma1in(string[] args)
         {
             string[] arr = Console.ReadLine().Split();
-            char[] cha1 = new char[19];
-            char[] cha2 = new char[19];
-
-            for ( int i = 19; i < 0; i--)
+            List<char> list1 = new List<char>(arr[0].ToCharArray());
+            List<char> list2 = new List<char>(arr[1].ToCharArray());
+            int o = 0;
+            int p = 0;
+            int x = list1.Count - list2.Count;
+            if( x < 0)
             {
-                int count = 0;
-                int t = (int.Parse(cha1[i].ToString() + int.Parse(cha2[i].ToString())));
-                if (t <= 10)
+                for( int j = 0; j < (Math.Abs(x)); j++)
                 {
-                    count += t / 10;
-                    t = (t % 10);
+                    list1.Insert(0, '0');
                 }
             }
-            long N = long.Parse(arr[0]); 
-            long X = long.Parse(arr[1]);
-
-            Console.WriteLine(N + X);
-
+            else if ( x > 0 )
+            {
+                for (int j = 0; j < x; j++)
+                {
+                    list2.Insert(0, '0');
+                }
+            }
+            List<int> list3 = new List<int>();
+            for (int k = list1.Count - 1; k >= 0; k--)
+            {
+                int z = int.Parse(list1[k].ToString()) + o;
+                int y = int.Parse(list2[k].ToString());
+                o = 0;
+                if (k == 0)
+                {
+                    list3.Insert(0, (z + y));
+                    break;
+                }
+                if (z + y >= 10)
+                {
+                    o = (z + y) / 10;
+                    p = (z + y) % 10;
+                    list3.Insert(0, p);
+                }
+                else
+                {
+                    list3.Insert(0, (z + y));
+                }
+            }
+            foreach(var i in list3)
+            {
+                Console.Write(i);
+            }
         }
     }
 }
