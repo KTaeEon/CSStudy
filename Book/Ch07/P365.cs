@@ -32,7 +32,7 @@ namespace Book.Ch07
             }
         }
 
-        static void Main(string[] args)
+        static void Ma1in(string[] args)
         {
             List<Animal> animals = new List<Animal>()
             {
