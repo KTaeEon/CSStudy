@@ -27,7 +27,7 @@ namespace Exam._04
     }
     internal class _04_01
     {
-        static void Main(string[] args)
+        static void Ma1in(string[] args)
         {
             Point3D p1;
             p1.x = 10;
