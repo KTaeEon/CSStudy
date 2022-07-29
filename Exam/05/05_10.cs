@@ -4,6 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+ * 날짜 : 2022/07/08
+ * 이름 : 김태언
+ * 내용 : 배열과 리스트 연습문제
+ */
 namespace Exam._05
 {
     internal class _05_10

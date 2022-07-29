@@ -4,6 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+ * 날짜 : 2022/07/29
+ * 이름 : 김태언
+ * 내용 : 대리자 연습문제
+ */
 namespace Exam._06
 {
     public delegate bool What(int x);

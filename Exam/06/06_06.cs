@@ -4,6 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+ * 날짜 : 2022/07/29
+ * 이름 : 김태언
+ * 내용 : LINQ 연습문제
+ */
 namespace Exam._06
 {
     class Student
@@ -34,9 +39,9 @@ namespace Exam._06
             students.Add(new Student("강감찬", 45, 62));
             students.Add(new Student("이순신", 55, 96));
 
-            var result = from Student in students
-                         orderby Student.Score descending
-                         group Student by Student.Score >= 80 into g
+            var result = from student in students
+                         orderby student.Score descending
+                         group student by student.Score >= 80 into g
                          select new
                          {
                              GroupKey = g.Key,

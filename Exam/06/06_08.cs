@@ -4,6 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+ * 날짜 : 2022/07/29
+ * 이름 : 김태언
+ * 내용 : 컬렉션 연습문제
+ * 
+ * LinkedList
+ *  - 이중 연결 리스트로 앞뒤에 참조 노드를 갖는 리스트
+ *  - 일반 리스트 보다 데이터 삽입, 삭제가 빠르지만 전체 검색 속도는 일반 리스트가 우수함
+ *  
+ * SortedList
+ *  - HashTable과 ArrayList의 혼합형이며 내부 데이터는 Key-Value 쌍으로 구성
+ *  - 내부적으로 키값으로 정렬된 상태를 자동으로 유지
+ */
 namespace Exam._06
 {
     internal class _06_08

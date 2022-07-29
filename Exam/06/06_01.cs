@@ -4,6 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+ * 날짜 : 2022/07/09
+ * 이름 : 김태언
+ * 내용 : 예외처리 연습문제
+ */
 namespace Exam._06
 {
     internal class _06_01

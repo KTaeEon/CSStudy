@@ -4,6 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+ * 날짜 : 2022/07/29
+ * 이름 : 김태언
+ * 내용 : 파일 입출력 연습문제
+ */
 namespace Exam._06
 {
     internal class _06_02
@@ -27,7 +32,7 @@ namespace Exam._06
                     for (int y = 1; y <= 9; y++)
                     {
                         int z = x * y;
-                        sw.WriteLine($"{x} * {y} : {z}");
+                        sw.WriteLine($"{x} x {y} = {z}");
                     }
                 }
             }

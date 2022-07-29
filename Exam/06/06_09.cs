@@ -5,6 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+ * 날짜 : 2022/07/29
+ * 이름 : 김태언
+ * 내용 : 데이터베이스 프로그래밍 연습문제
+ */
 namespace Exam._06
 {
     internal class _06_09
@@ -85,7 +90,7 @@ namespace Exam._06
                         MySqlCommand cmd = conn.CreateCommand();
                         cmd.CommandText = "SELECT * FROM `user2`";
 
-                        MySqlDataReader reader = new MySqlCommand(cmd.CommandText, conn).ExecuteReader();
+                        MySqlDataReader reader = cmd.ExecuteReader();
                         while (reader.Read())
                         {
                             Console.WriteLine("{0},{1},{2},{3}", reader[0],
