@@ -8,7 +8,7 @@ namespace Exam._05
 {
     internal class _05_07
     {
-        static void Main(string[] args)
+        static void Mai1n(string[] args)
         {
             while (true)
             {
@@ -52,37 +52,33 @@ namespace Exam._05
                     Console.WriteLine(e.Message);
                     continue;
                 }
-                finally
-                {
-                    Random random = new Random();
-                    comWord = words[random.Next(3)];
+                break;
+            }
 
-                    Console.WriteLine("컴퓨터 결과 : " + comWord);
+            Random random = new Random();
+            comWord = words[random.Next(3)];
 
-                    if (comWord == youWord)
-                    {
-                        Console.WriteLine("무승부");
-                    }
-                    else if (comWord == words[0] && youWord == words[1])
-                    {
-                        Console.WriteLine("당신의 승리!");
-                    }
-                    else if (comWord == words[1] && youWord == words[2])
-                    {
-                        Console.WriteLine("당신의 승리!");
-                    }
-                    else if (comWord == words[2] && youWord == words[0])
-                    {
-                        Console.WriteLine("당신의 승리!");
-                    }
-                    else
-                    {
-                        Console.WriteLine("컴퓨터 승리!");
-                    }
-                    x = false;
+            Console.WriteLine("컴퓨터 결과 : " + comWord);
 
-
-                }
+            if (comWord == youWord)
+            {
+                Console.WriteLine("무승부");
+            }
+            else if (comWord == words[0] && youWord == words[1])
+            {
+                Console.WriteLine("당신의 승리!");
+            }
+            else if (comWord == words[1] && youWord == words[2])
+            {
+                Console.WriteLine("당신의 승리!");
+            }
+            else if (comWord == words[2] && youWord == words[0])
+            {
+                Console.WriteLine("당신의 승리!");
+            }
+            else
+            {
+                Console.WriteLine("컴퓨터 승리!");
             }
         }
     }

@@ -46,21 +46,18 @@ namespace Exam._05
             dic.Add("gyeonggi", list1);
             dic.Add("chungbuk", list2);
             dic.Add("gyungnam", list3);
-/*
+
             // 수원 사과 출력
-            List<Apple> list = list1;
+            List<Apple> list = dic["gyeonggi"];
             Apple apple = list[2];
             apple.Show();
 
             // 충주 사과 출력
-            List<Apple> list = list2;
-            Apple apple = list[2];
-  
+            dic["chungbuk"][1].Show();
+
 
             // 밀양 사과 출력
-            List<Apple> list = list2;
-            Apple apple = list[2];
-            apple.Show(); */
+            dic["gyungnam"][0].Show();
         }
     }
 }
