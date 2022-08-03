@@ -8,44 +8,30 @@ namespace Backjun._08단계
 {
     internal class _08_01
     {
-        static void Main(string[] args)
+        static void Ma1in(string[] args)
         {
-            int count = 0;
-            List<int> list = new List<int>();
             int n = int.Parse(Console.ReadLine());
-            string[] arr = Console.ReadLine().Split();
+            string[] x = Console.ReadLine().Split(" ");
+            int count = 0;
+            int answer = 0;
 
-
-            for (int i = 0; i < n; i++)
+            foreach (string z in x)
             {
-                list.Insert(i, int.Parse(arr[i]));
-            }
-
-            for (int j = 0; j < list.Count; j++)
-            {
-                int x = list[j];
-                
-                if( x == 1)
+                int y = int.Parse(z);
+                for (int i = 2; i <= y; i++)
                 {
-
-                }
-                else if(x == 2 || x == 3 || x == 5 || x == 7)
-                {
-                    count++;
-                }
-                else if ((x % 10) == 1 || (x % 10) == 3 || (x % 10) == 7 || (x % 10) == 9)
-                {
-                    if ((x % 2) == 0 || (x % 3) == 0 || (x % 5) == 0 || (x % 7) == 0)
-                    {
-
-                    }
-                    else
+                    if (y % i == 0)
                     {
                         count++;
                     }
                 }
+                if (count == 1)
+                {
+                    answer++;
+                }
+                count = 0;
             }
-            Console.WriteLine(count);
+            Console.WriteLine(answer);
         }
     }
 }

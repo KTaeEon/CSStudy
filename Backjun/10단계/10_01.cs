@@ -8,7 +8,7 @@ namespace Backjun._10단계
 {
     internal class _10_01
     {
-        static void Main(string[] args)
+        static void Mai1n(string[] args)
         {
             string[] arr = Console.ReadLine().Split();
             int n = int.Parse(arr[0]);
@@ -19,8 +19,8 @@ namespace Backjun._10단계
             foreach (var item in arr2)
             {
                 list.Add(int.Parse(item));
-            
 
+            }
         }
     }
 }
