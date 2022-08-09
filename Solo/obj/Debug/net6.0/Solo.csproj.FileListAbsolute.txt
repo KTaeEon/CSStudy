@@ -1,0 +1,15 @@
+C:\Users\502\Desktop\CSStudy\git_School\Solo\bin\Debug\net6.0\Solo.exe
+C:\Users\502\Desktop\CSStudy\git_School\Solo\bin\Debug\net6.0\Solo.deps.json
+C:\Users\502\Desktop\CSStudy\git_School\Solo\bin\Debug\net6.0\Solo.runtimeconfig.json
+C:\Users\502\Desktop\CSStudy\git_School\Solo\bin\Debug\net6.0\Solo.dll
+C:\Users\502\Desktop\CSStudy\git_School\Solo\bin\Debug\net6.0\Solo.pdb
+C:\Users\502\Desktop\CSStudy\git_School\Solo\obj\Debug\net6.0\Solo.csproj.AssemblyReference.cache
+C:\Users\502\Desktop\CSStudy\git_School\Solo\obj\Debug\net6.0\Solo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\502\Desktop\CSStudy\git_School\Solo\obj\Debug\net6.0\Solo.AssemblyInfoInputs.cache
+C:\Users\502\Desktop\CSStudy\git_School\Solo\obj\Debug\net6.0\Solo.AssemblyInfo.cs
+C:\Users\502\Desktop\CSStudy\git_School\Solo\obj\Debug\net6.0\Solo.csproj.CoreCompileInputs.cache
+C:\Users\502\Desktop\CSStudy\git_School\Solo\obj\Debug\net6.0\Solo.dll
+C:\Users\502\Desktop\CSStudy\git_School\Solo\obj\Debug\net6.0\refint\Solo.dll
+C:\Users\502\Desktop\CSStudy\git_School\Solo\obj\Debug\net6.0\Solo.pdb
+C:\Users\502\Desktop\CSStudy\git_School\Solo\obj\Debug\net6.0\Solo.genruntimeconfig.cache
+C:\Users\502\Desktop\CSStudy\git_School\Solo\obj\Debug\net6.0\ref\Solo.dll
